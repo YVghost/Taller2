@@ -13,4 +13,8 @@ using Taller2.Models;
         }
 
         public DbSet<Taller2.Models.Facultad> Facultad { get; set; } = default!;
+
+public DbSet<Taller2.Models.Carrera> Carrera { get; set; } = default!;
+
+public DbSet<Taller2.Models.Estudiante> Estudiante { get; set; } = default!;
     }
